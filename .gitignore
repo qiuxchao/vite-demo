@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+dist/
+*.local
+
+package.lock
+*.cpuprofile
+*.local
+*.log
+/.vscode/
+
+yarn.lock
+pnpm-lock.yml
