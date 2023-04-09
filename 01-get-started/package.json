@@ -1,0 +1,12 @@
+{
+	"name": "01-get-started",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx vite"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
