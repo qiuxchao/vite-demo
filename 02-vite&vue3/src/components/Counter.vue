@@ -25,8 +25,8 @@ const decrement = () => {
 
 <template>
 	<div>
-		<h1>{{ count }}</h1>
-		<button @click="increment" style="margin-right: 10px;">+</button>
-		<button @click="decrement">-</button>
+		<h1 class="font-bold text-3xl my-2">{{ count }}</h1>
+		<button class="px-2 bg-slate-400 rounded-sm" @click="increment" style="margin-right: 10px;">+</button>
+		<button class="px-2 bg-slate-400 rounded-sm" @click="decrement">-</button>
 	</div>
 </template>
