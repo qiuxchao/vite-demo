@@ -10,7 +10,7 @@ const props = defineProps({
 });
 
 // 通过 defineEmits 定义 emits
-const emits = defineEmits(['increment']);
+const emits = defineEmits(['increment', 'decrement']);
 
 // 加
 const increment = () => {
@@ -19,7 +19,7 @@ const increment = () => {
 
 // 减
 const decrement = () => {
-	emits('increment', props.count - 1);
+	emits('decrement', props.count - 1);
 };
 </script>
 
