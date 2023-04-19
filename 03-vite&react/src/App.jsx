@@ -8,19 +8,21 @@ const App = props => {
 	// 计数器
 	const [count, setCount] = useState(0);
 	return (
-		<div>
-			<h1>React + Vite</h1>
-			<div>
-				<div>
-					<h2>Counter for State</h2>
+		<div className="p-8">
+			<h1 className="text-center font-bold text-[28px]">
+				<span className="text-[#299ECA]">React</span> + <span className="text-[#646CFF]">Vite</span>
+			</h1>
+			<div className="flex mt-10">
+				<div className="mr-12 flex-1 border border-solid border-red-200 p-12 rounded-md text-center">
+					<h2 className="text-[20px] font-medium">Counter for State</h2>
 					<Counter
 						count={count}
 						increment={() => setCount(c => c + 1)}
 						decrement={() => setCount(c => c - 1)}
 					/>
 				</div>
-				<div>
-					<h2>Counter for Redux</h2>
+				<div className="border flex-1 border-solid border-green-200 p-12 rounded-md text-center">
+					<h2 className="text-[20px] font-medium">Counter for Redux</h2>
 					<Counter
 						count={props.count}
 						increment={() => props.dispatch(increment())}
