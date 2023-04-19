@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { connect } from 'react-redux';
 
 import Counter from './components/Counter.jsx';
+import TestApp from './model/TestApp.jsx';
 import { decrement, increment } from './store';
 
 const App = props => {
@@ -30,6 +31,7 @@ const App = props => {
 					/>
 				</div>
 			</div>
+			<TestApp />
 		</div>
 	);
 };
