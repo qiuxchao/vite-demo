@@ -2,5 +2,5 @@
 
 - 快速的开发和热重载能力，可以实时查看 React 组件更改。
 - 支持 React 组件和 JSX 语法。
-- 支持 React 路由和状态管理器。
-- 支持 tailwindcss 样式。
+- 支持 React 路由(`react-router-dom`)和状态管理器(`redux`)。
+- 支持 `tailwindcss` 样式。
