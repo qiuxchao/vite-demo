@@ -24,9 +24,9 @@ const decrement = () => {
 </script>
 
 <template>
-	<div>
-		<h1 class="font-bold text-3xl my-2">{{ count }}</h1>
-		<button class="px-2 bg-slate-400 rounded-sm" @click="increment" style="margin-right: 10px;">+</button>
-		<button class="px-2 bg-slate-400 rounded-sm" @click="decrement">-</button>
+	<div class="p-10">
+		<button class="px-5 bg-pink-400 rounded-md text-white text-[20px]" @click="decrement">-</button>
+		<span class="mx-10 font-medium text-[30px]">{{count}}</span>
+		<button class="px-5 bg-blue-400 rounded-md text-white text-[20px]" @click="increment">+</button>
 	</div>
 </template>
